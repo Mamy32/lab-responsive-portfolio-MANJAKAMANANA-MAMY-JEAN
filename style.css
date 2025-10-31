@@ -1,0 +1,1058 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+body {
+    background-color: #FCF9EA;
+}
+
+header {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 80vh;
+}
+
+nav {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav .nav-element ul li {
+    list-style-type: none;
+
+}
+
+nav .nav-element ul {
+    display: flex;
+}
+
+nav .nav-element ul li a {
+    margin: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: black;
+}
+
+nav .logo h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+}
+
+/**Header content**/
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-content .header-left {
+    width: 600px;
+}
+
+.header-content .about-right {
+    flex: 1;
+    min-width: 250px;
+    max-height: 460px;
+}
+
+.header-content .header-right img {
+    width: 464px;
+    height: 489px;
+    border-radius: 10px 224px 10px 224px;
+}
+
+.header-content .header-left h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.header-content .header-left h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 64px;
+    color: #FFA4A4;
+}
+
+.header-content .header-left p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.header-content .header-left .header-left-btn {
+    margin-top: 20px;
+}
+
+.header-content .header-left .header-left-btn button {
+    height: 70px;
+    width: 284px;
+    font-size: 24px;
+    background-color: #FCF9EA;
+    border: 2px solid #BADFDB;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.header-content .header-left .header-left-btn .btn-2 {
+    margin-left: 15px
+}
+
+/**About Me*/
+
+#about-me {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#about-me h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    color: #232C33;
+}
+
+#about-me .about-content {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.about-right {
+    background-color: white;
+}
+
+.about-right p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+.about-left,
+.about-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+}
+
+.about-left img {
+    width: 100%;
+    height: 100%;
+}
+
+/**Skills**/
+#skills {
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+#skills h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    color: #232C33;
+}
+
+.skills-elements {
+    display: grid;
+    grid-template-columns: repeat(3, 450px);
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-lists {
+    width: 450px;
+    height: 284px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.skills-lists img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.skills-lists:hover img {
+    transform: scale(1.05);
+}
+
+/**Projects**/
+#projects {
+
+    margin-top: 100px;
+}
+
+#projects h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    color: #232C33;
+}
+
+.projects-content {
+    margin-top: 50px;
+}
+
+.projects-content .project-content-lists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.projects-content .project-right img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+    object-fit: cover;
+}
+
+.project-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-left,
+.project-right {
+    width: 496px;
+    background-color: white;
+    height: 526px;
+    border-radius: 20px;
+}
+
+.project-left-element {
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.project-left-element h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+.project-left-element p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: #828282;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.project-left-element button {
+
+    height: 44px;
+    width: 150px;
+    border-radius: 22px;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+/**Contacts**/
+#contact {
+    margin-top: 100px;
+}
+
+#contact h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    color: #232C33;
+}
+
+form {
+    margin-top: 50px;
+}
+
+.contact-content .input {
+    height: 64px;
+    width: 496px;
+    padding: 12px;
+}
+
+.contact-content .form-elements {
+    display: flex;
+    justify-content: center;
+}
+
+.form-elements .elements-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+}
+
+.form-elements .elements-1 input {
+    border-radius: 8px;
+    border: 1px solid #BADFDB;
+    margin-top: 15px;
+}
+
+.form-elements .elements-1 textarea {
+    width: 1024px;
+    height: 240px;
+    margin-top: 15px;
+    padding: 12px 12px;
+    border: 1px solid #BADFDB;
+}
+
+.form-elements .elements-1 .submit {
+    height: 70px;
+    max-width: 170px;
+    width: 100%;
+    margin: 25px auto;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 22px;
+    background-color: #FFA4A4;
+    border: none;
+}
+
+/**Footer**/
+footer {
+    background-color: #BADFDB;
+    margin-top: 120px;
+    height: 338px;
+
+}
+
+.footer-element {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 200px;
+    align-items: center;
+}
+
+.footer-element .footer-middle ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-element .footer-middle ul li {
+    margin: 14px;
+}
+
+.footer-element .footer-middle ul li a {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.footer-right i {
+    height: 32px;
+    width: 32px;
+    font-size: 22px;
+}
+
+.footer-left h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.hr {
+    border: 1.5px solid black;
+    width: 1180px;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+
+.last-footer {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.last-footer p {
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/**Responsive tablet**/
+
+@media screen and (max-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
+    header {
+        height: 40vh;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    nav .logo h1 {
+        font-size: 20px;
+    }
+
+    nav .nav-element ul li a {
+        font-size: 18px;
+    }
+
+    .header-content {
+        margin-top: 70px;
+    }
+    .header-left{
+        flex: 1;
+        min-width: 250px;
+    }
+    .header-right{
+        flex: 1;
+        min-width: 250px;
+        max-width: 420px;
+    }
+
+    .header-content .header-right img {
+        width: 100%;
+        height: 450px;
+        border-radius: 10px 200px 10px 200px;
+    }
+
+    .header-content .header-left h2 {
+        font-size: 20px;
+    }
+
+    .header-content .header-left h3 {
+        font-size: 32px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 250px;
+    }
+
+    .header-content .header-left p {
+        font-size: 15px;
+        width: 400px;
+    }
+
+    .header-content .header-left .header-left-btn button {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    #about-me h1,
+    #skills h1,
+    #projects h1,
+    #contact h1 {
+        font-size: 24px;
+    }
+
+    .about-left,
+    .about-right {
+        height: 450px;
+    }
+
+    .about-right p {
+        font-size: 12px;
+    }
+
+    #about-me,
+    footer,
+    #skills,
+    #contact,
+    #projects {
+        margin-top: 70px;
+    }
+
+    .skills-elements {
+        grid-template-columns: repeat(2, 300px);
+        gap: 30px;
+        margin-top: 40px;
+
+    }
+
+    .skills-lists {
+        width: 300px;
+        height: 250px;
+
+    }
+
+    .project-left,
+    .project-right {
+        width: 300px;
+        height: 350px;
+    }
+
+    .project-left-element button {
+        width: 100px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .project-left-element p {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    .project-left-element h2 {
+        font-size: 30px;
+    }
+
+    .contact-content .input {
+        height: 50px;
+        width: 350px;
+        outline: 0;
+        padding-left: 15px;
+    }
+
+    .form-elements .elements-1 textarea {
+        width: 720px;
+        height: 200px;
+        border-radius: 8px;
+        padding-left: 15px;
+        padding-top: 15px;
+        outline: 0;
+    }
+
+    .form-elements .elements-1 .submit {
+        height: 40px;
+        max-width: 120px;
+        font-size: 15px;
+
+    }
+
+    .form-elements .elements-1 label {
+        font-size: 15px;
+    }
+
+    .footer-element .footer-middle ul li a {
+        font-size: 15px;
+    }
+
+    .footer-right i {
+        height: 26px;
+        width: 26px;
+    }
+
+    .footer-left h3 {
+        font-size: 16px;
+    }
+
+    footer {
+        height: 228px;
+    }
+
+    .footer-element {
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 120px;
+    }
+    .footer-right i{
+        font-size: 20px;
+    }
+
+    .last-footer p {
+        font-size: 12px;
+    }
+
+    .last-footer {
+        height: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .hr {
+        width: 700px;
+    }
+
+}
+@media screen and (max-width: 840px){
+        header {
+        height: 50vh;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    nav .logo h1 {
+        font-size: 17px;
+    }
+
+    nav .nav-element ul li a {
+        font-size: 16px;
+    }
+
+    .header-content {
+        margin-top: 70px;
+    }
+
+    .header-content .header-right img {
+        width: 340px;
+        height: 280px;
+        border-radius: 10px 124px 10px 124px;
+    }
+
+    .header-content .header-left h2 {
+        font-size: 18px;
+    }
+
+    .header-content .header-left h3 {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 220px;
+    }
+
+    .header-content .header-left p {
+        font-size: 12px;
+        width: 250px;
+    }
+
+    .header-content .header-left .header-left-btn button {
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+    }
+    #about-me h1,
+    #skills h1,
+    #projects h1,
+    #contact h1 {
+        font-size: 22px;
+    }
+
+    .about-left,
+    .about-right {
+        height: 400px;
+    }
+
+    .about-right p {
+        font-size: 10px;
+        font-weight: 10px;
+    }
+
+    #about-me,
+    footer,
+    #skills,
+    #contact,
+    #projects {
+        margin-top: 50px;
+    }
+
+    .skills-elements {
+        grid-template-columns: repeat(2, 270px);
+        gap: 30px;
+        margin-top: 40px;
+
+    }
+
+    .skills-lists {
+        width: 270px;
+        height: 220px;
+
+    }
+
+    .project-left,
+    .project-right {
+        width: 80%;
+        height: 310px;
+    }
+
+    .project-left-element button {
+        width: 96px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    .project-left-element p {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+
+    .project-left-element h2 {
+        font-size: 27px;
+    }
+
+    .contact-content .input {
+        height: 40px;
+        width: 300px;
+        outline: 0;
+        padding-left: 15px;
+    }
+
+    .form-elements .elements-1 textarea {
+        width: 620px;
+        height: 200px;
+        border-radius: 8px;
+        padding-left: 15px;
+        padding-top: 15px;
+        outline: 0;
+    }
+
+    .form-elements .elements-1 .submit {
+        height: 35px;
+        max-width: 100px;
+        font-size: 13px;
+
+    }
+
+    .form-elements .elements-1 label {
+        font-size: 12px;
+    }
+
+    .footer-element .footer-middle ul li a {
+        font-size: 12px;
+    }
+
+    .footer-right i {
+        height: 20px;
+        width: 20px;
+        font-size: 18px;
+    }
+
+    .footer-left h3 {
+        font-size: 13px;
+    }
+
+    footer {
+        height: 198px;
+    }
+
+    .footer-element {
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 100px;
+    }
+
+    .last-footer p {
+        font-size: 10px;
+    }
+
+    .last-footer {
+        height: 35px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .hr {
+        width: 500px;
+    }
+}
+/**Responsive mobile*/
+@media screen and (max-width: 768px){
+    header {
+        height:100vh;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    nav .logo h1 {
+        font-size: 12px;
+    }
+
+    nav .nav-element ul li a {
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    .header-content {
+        margin-top: 40px;
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .header-content .header-right{
+        max-width: 728px;
+        min-width: 250px;
+        flex: 1;
+        height:100px;
+    }
+
+    .header-content .header-right img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+        border-radius: 0px 0px 0px 0px;
+    }
+    .header-content .header-left{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 0px 0px 8px 8px;
+        text-align: left;
+        height: 300px;
+        max-width: 728px;
+        min-width: 250px;
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    .header-content .header-left h2 {
+        font-size: 15px;
+    }
+
+    .header-content .header-left h3 {
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 180px;
+    }
+
+    .header-content .header-left p {
+        font-size: 10px;
+        width: 250px;
+    }
+
+    .header-content .header-left .header-left-btn button {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    #about-me h1,
+    #skills h1,
+    #projects h1,
+    #contact h1 {
+        font-size: 19px;
+    }
+    .about-content{
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about-left,
+    .about-right {
+        height: 250px;
+    }
+    .about-right{
+        padding: 10px;
+    }
+    .about-right p {
+        font-size: 10px;
+        line-height: 28px;
+    }
+    #about-me{
+        margin-top: 300px;
+    }
+
+    
+    footer,
+    #skills,
+    #contact,
+    #projects {
+        margin-top: 50px;
+    }
+
+    .skills-elements {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 40px;
+        gap: 20px;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+
+    }
+    .skills-lists img{
+        width: 100%;
+        height: 100%;
+
+    }
+    .skills-lists {
+        width: 90%;
+        height: 90%;
+        max-width: 600px;
+        max-height: 710px;
+
+    }
+    .project-content-lists{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .project-left,
+    .project-right {
+        width: 90%;
+        max-width: 420px;
+        height: 300px;
+        border-radius: 0px;
+    }
+    .projects-content .project-right img {
+        border-radius: 20px 20px 0px 0px;
+    }
+    .project-left-element {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+    .project-left-element button {
+        width: 94px;
+        height: 28px;
+        font-size: 10px;
+    }
+
+    .project-left-element p {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+
+    .project-left-element h2 {
+        font-size: 27px;
+    }
+    .contact-content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-content .input {
+        height: 40px;
+        max-width: 600px;
+        width: 90%;
+        outline: 0;
+        padding-left: 15px;
+    }
+    .form-elements{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    form{
+        width: 90%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .elements-1{
+        max-width: 500px;
+        width: 100%;
+
+    }
+
+    .form-elements .elements-1 textarea {
+        max-width: 600px;
+        width: 90%;
+        height: 200px;
+        border-radius: 8px;
+        padding-left: 15px;
+        padding-top: 15px;
+        outline: 0;
+    }
+
+    .form-elements .elements-1 .submit {
+        height: 35px;
+        max-width: 100px;
+        font-size: 13px;
+
+    }
+
+    .form-elements .elements-1 label {
+        font-size: 12px;
+    }
+
+    .footer-element .footer-middle ul li a {
+        font-size: 10px;
+    }
+    .footer-element .footer-middle ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-element .footer-middle ul li{
+        margin: 8px;
+    }
+
+    .footer-right i {
+        height: 20px;
+        width: 20px;
+        font-size: 16px;
+        
+    }
+
+    .footer-left h3 {
+        font-size: 12px;
+        padding-top: 20px;
+    }
+
+    footer {
+        height: 300px;
+    }
+
+    .footer-element {
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .last-footer p {
+        font-size: 10px;
+    }
+
+    .last-footer {
+        height:50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .hr {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header{
+        height: 100vh;
+    }
+    #about-me{
+        margin-top: 80px;
+    }
+    .footer-right i{
+        font-size: 15px;
+    }
+}
